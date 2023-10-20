@@ -1,7 +1,3 @@
-# Promise errors
+# Network Requests - Todo List
 
-Starting from the previous exercise, try to better handle all errors through the `Error` class and the `catch` method. Also add the `finally` method.
-
-Tips:
-
-- Error documentation: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error
+Using async and await, implement the necessary code to recover the Todos list present in the following URL through an http request: [link](https://jsonplaceholder.typicode.com/todos).
