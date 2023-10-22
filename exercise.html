@@ -20,7 +20,6 @@
 </html>
 
 <script>
-  const firstNameId = document.getElementById("firstName");
-  const firstNameValue = firstNameId.value;
-  console.log(firstNameValue);
+  const formInputs = document.querySelectorAll(".form-input");
+  formInputs.forEach((element) => console.log(element.value));
 </script>
