@@ -1,11 +1,4 @@
-# DOM
+# Network Requests - Todo List + DOM
 
-Get the value of all `input` and `label` fields.
-
-The output in the console must be:
-
-```
-First Name: Mario
-Last Name: Rossi
-Age: 25
-```
+Starting from the exercise called 'Network Requests - Todo List', create dynamically a list of elements `<li>` containing the Todo title (title property in the collection of objects returned by the Response) and append it to the '.todo-list' element.
+N.B: The Body of the Response contains the Todos list in Json format, use the .json method present in the response to perform the deserialization.
