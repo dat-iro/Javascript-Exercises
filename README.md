@@ -1,7 +1,5 @@
-# Local Storage
+# Network Requests
 
-Starting with the previous exercise, write a method that recovers the data saved in `localStorage` and print them in the console
-
-Tips:
-
-- Remember to use the available `JSON methods` (parse, stringify)
+Using async and await, implement the necessary code to recover the Todo with ID 4 through the following URL: [link](https://jsonplaceholder.typicode.com/todos/4) . Then create two elements:An `<h2>` element containing the Todo title (title property)
+An `<Input Type = "Checkbox"> `with the Checked property set to the value present for the complete property of the Todo
+Append the two elements previously created inside the container.
