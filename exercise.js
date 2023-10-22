@@ -4,7 +4,7 @@ const user = {
   age: 25,
 };
 
-function savelocalData(user) {
+function saveLocalData(user) {
   try {
     const userJson = JSON.stringify(user);
     localStorage.setItem("user", userJson);
@@ -13,4 +13,14 @@ function savelocalData(user) {
   }
 }
 
-savelocalData(user);
+function getLocalData(key) {
+  try {
+    const localData = localStorage.getItem(key);
+    console.log(localData);
+  } catch (error) {
+    console.error("Errore!");
+  }
+}
+
+saveLocalData(user);
+getLocalData("user");

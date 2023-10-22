@@ -1,6 +1,6 @@
 # Local Storage
 
-In the `exercise.js` file, we find a `user` object. Write a function that saves the user object in `localStorage` with its 'user' key.
+Starting with the previous exercise, write a method that recovers the data saved in `localStorage` and print them in the console
 
 Tips:
 
